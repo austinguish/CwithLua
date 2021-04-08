@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/austinguish/Desktop/backend/CWithLua/include/bridge.c
+bridge.h
+/Users/austinguish/Desktop/backend/CWithLua/include/bridge.h
+luatest.h
+/Users/austinguish/Desktop/backend/CWithLua/include/luatest.h
+
+/Users/austinguish/Desktop/backend/CWithLua/include/bridge.h
+
+/Users/austinguish/Desktop/backend/CWithLua/include/luatest.h
+

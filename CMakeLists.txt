@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.19)
+project(CWithLua)
+
+set(CMAKE_CXX_STANDARD 14)
+set(INC_DIR ./include)
+set(LINK_DIR ./lib)
+include_directories(${INC_DIR})
+link_directories(${LINK_DIR})
+add_executable(CWithLua main.cpp include/luatest.h include/luatest.cpp )
+target_link_libraries(CWithLua liblua.a)
